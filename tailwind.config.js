@@ -8,6 +8,7 @@ module.exports = {
         Babes: ["Bebas Neue", "cursive"],
         Ubuntu: ["Ubuntu", " sans-serif"],
         Raleway: ["Raleway", "sans-serif"],
+        Montserrat: ["Montserrat Alternates", "sans-serif"],
       },
     },
   },

@@ -32,7 +32,7 @@ const Navbar = () => {
             </div> */}
           </div>
           <div className="flex items-center space-x-10">
-            <aside className="flex items-center space-x-2">
+            {/* <aside className="flex items-center space-x-2">
               <IconContext.Provider value={{ color: "", size: 20 }}>
                 <FiLinkedin />
               </IconContext.Provider>
@@ -59,7 +59,37 @@ const Navbar = () => {
                   <IoArrowDownCircleOutline />
                 </IconContext.Provider>
               </button>
-            </aside>
+            </aside> */}
+
+            <Link to="/home">
+              <span className="text-gray-400 font-semibold text-[15px] tracking-wide">
+                home
+              </span>
+            </Link>
+            <Link to="/projects">
+              <span className="text-gray-400 font-semibold text-[15px] tracking-wide">
+                projects
+              </span>
+            </Link>
+            <Link to="/contact">
+              <span className="text-gray-400 font-semibold text-[15px] tracking-wide">
+                contact
+              </span>
+            </Link>
+            <Link to="/about">
+              <span className="text-gray-400 font-semibold text-[15px] tracking-wide">
+                about
+              </span>
+            </Link>
+
+            <a
+              href="https://drive.google.com/file/d/1GcgQK1eYODsiijAn14DwsSsPJ7yJcWix/view?usp=share_link"
+              className="text-gray-400 font-semibold text-[15px] tracking-wide outline outline-1 px-2 py-0.5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </section>

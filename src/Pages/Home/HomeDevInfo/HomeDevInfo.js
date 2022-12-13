@@ -6,7 +6,7 @@ const HomeDevInfo = () => {
     <>
       <Navbar />
       <div className="container mx-auto">
-        <h1 className="text-2xl text-white">Info</h1>
+        <h1 className="text-2xl text-white text-center mt-48"> Coming Soon</h1>
       </div>
     </>
   );

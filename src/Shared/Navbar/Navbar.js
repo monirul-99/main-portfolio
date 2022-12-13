@@ -71,9 +71,9 @@ const Navbar = () => {
                 projects
               </span>
             </Link>
-            <Link to="/contact">
+            <Link to="/blogs">
               <span className="text-gray-400 font-semibold text-[15px] tracking-wide">
-                contact
+                Blogs
               </span>
             </Link>
             <Link to="/about">

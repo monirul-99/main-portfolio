@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
+import About from "../Pages/Home/About/About";
 import Home from "../Pages/Home/Home";
 import HomeCover from "../Pages/Home/HomeCover/HomeCover";
 import HomeDevInfo from "../Pages/Home/HomeDevInfo/HomeDevInfo";
@@ -22,7 +23,7 @@ export const Router = createBrowserRouter([
     element: <HomeProjects />,
   },
   {
-    path: "/contact",
+    path: "/blogs",
     element: <HomeDevInfo />,
   },
   {
@@ -36,5 +37,9 @@ export const Router = createBrowserRouter([
   {
     path: "/processZone",
     element: <ProcessZone />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);

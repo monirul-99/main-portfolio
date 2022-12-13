@@ -1,6 +1,11 @@
 import React from "react";
 import { IconContext } from "react-icons";
-import { IoLogoGithub, IoEye } from "react-icons/io5";
+import {
+  IoLogoGithub,
+  IoEye,
+  IoInformationCircleOutline,
+} from "react-icons/io5";
+import { Link } from "react-router-dom";
 import Navbar from "../../../Shared/Navbar/Navbar";
 import One from "../../Images/projects1.png";
 import two from "../../Images/projects2.png";
@@ -56,13 +61,38 @@ const HomeProjects = () => {
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoEye />
                   </IconContext.Provider>
-                  <span className="px-2">Preview</span>
+                  <span className="px-2">
+                    <a
+                      href="https://wedding-photography-1adeb.firebaseapp.com/"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      Preview
+                    </a>
+                  </span>
                 </button>
                 <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoLogoGithub />
                   </IconContext.Provider>
-                  <span className="px-2">GitHub</span>
+                  <span className="px-2">
+                    <a
+                      href="https://github.com/monirul-99/wedding-colors"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </span>
+                </button>
+
+                <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
+                  <IconContext.Provider value={{ color: "", size: 18 }}>
+                    <IoInformationCircleOutline />
+                  </IconContext.Provider>
+                  <span className="px-2">
+                    <Link to="/weddingInfo">Info</Link>
+                  </span>
                 </button>
               </div>
             </div>
@@ -106,13 +136,38 @@ const HomeProjects = () => {
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoEye />
                   </IconContext.Provider>
-                  <span className="px-2">Preview</span>
+                  <span className="px-2">
+                    <a
+                      href="https://shop-ex-shopping.firebaseapp.com/"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      Preview
+                    </a>
+                  </span>
                 </button>
                 <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoLogoGithub />
                   </IconContext.Provider>
-                  <span className="px-2">GitHub</span>
+                  <span className="px-2">
+                    <a
+                      href="https://github.com/monirul-99/shop-EX"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </span>
+                </button>
+
+                <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
+                  <IconContext.Provider value={{ color: "", size: 18 }}>
+                    <IoInformationCircleOutline />
+                  </IconContext.Provider>
+                  <span className="px-2">
+                    <Link to="/shopexInfo">Info</Link>
+                  </span>
                 </button>
               </div>
             </div>
@@ -136,15 +191,15 @@ const HomeProjects = () => {
                   JavaScript
                 </p>
                 <p className="text-[14px] bg-[#EDEEEF] px-3 rounded-md py-0.5 text-black">
-                  Node JS
+                  Tailwind
                 </p>
               </div>
               <div className="flex mb-5 px-3 space-x-3">
                 <p className="text-[14px] bg-[#EDEEEF] px-3 rounded-md py-0.5 text-black">
-                  Express JS
+                  Html
                 </p>
                 <p className="text-[14px] bg-[#EDEEEF] px-3 rounded-md py-0.5 text-black">
-                  MongoDB
+                  React Toastify
                 </p>
                 <p className="text-[14px] bg-[#EDEEEF] px-3 rounded-md py-0.5 text-black">
                   Firebase
@@ -156,13 +211,38 @@ const HomeProjects = () => {
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoEye />
                   </IconContext.Provider>
-                  <span className="px-2">Preview</span>
+                  <span className="px-2">
+                    <a
+                      href="https://learning-with-love.firebaseapp.com/"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      Preview
+                    </a>
+                  </span>
                 </button>
                 <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
                   <IconContext.Provider value={{ color: "", size: 18 }}>
                     <IoLogoGithub />
                   </IconContext.Provider>
-                  <span className="px-2">GitHub</span>
+                  <span className="px-2">
+                    <a
+                      href="https://github.com/monirul-99/learning-with-love"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </span>
+                </button>
+
+                <button className="outline h-7 outline-1 px-2 outline-neutral-900 rounded-md flex items-center">
+                  <IconContext.Provider value={{ color: "", size: 18 }}>
+                    <IoInformationCircleOutline />
+                  </IconContext.Provider>
+                  <span className="px-2">
+                    <Link to="/processZone">Info</Link>
+                  </span>
                 </button>
               </div>
             </div>
